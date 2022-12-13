@@ -31,6 +31,10 @@ module.exports = {
           blackText: "hsl(230, 17%, 14%)"
         }
       },
+      screens: {
+        xs: "375px",
+        ss: "620px",
+      }
     },
   },
   darkMode: "class",

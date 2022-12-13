@@ -24,17 +24,17 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="flex items-center justify-between">
+    <nav className="flex items-center justify-between xs:flex-col md:flex-row">
       <div>
-        <h1 className="text-2xl md:text-4xl font-bold text-light-blackText dark:text-light-white">
+        <h1 className="text-2xl md:text-4xl font-bold text-light-blackText dark:text-light-white xs:text-center md:text-left">
           Social Media Dashboard
         </h1>
-        <p className="text-main-text font-bold">
+        <p className="text-main-text font-bold xs:text-center md:text-left">
           Tottal followers: <CountUp end={23004} duration={5} />
         </p>
       </div>
 
-      <div className="toggle">
+      <div className="toggle xs:mt-5">
         <label
           htmlFor="checkbox"
           className="font-bold text-main-text text-sm cursor-pointer"

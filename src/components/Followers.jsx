@@ -10,7 +10,7 @@ import CountUp from "react-countup";
 const Followers = () => {
   return (
     <section className="py-10 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
-      <article className="bg-light-lightCardBg dark:bg-dark-darkCardBg p-5 rounded-lg shadow shadow-dark-darkTopBg dark:shadow-light-lightTopBg hover:bg-light-hoverCardBg hover:dark:bg-dark-hoverCardBg border-t-[4px] border-main-faceBook  transition-all hover:scale-[1.1]">
+      <article className="bg-light-lightCardBg dark:bg-dark-darkCardBg p-5 rounded-lg shadow shadow-dark-darkTopBg dark:shadow-light-lightTopBg hover:bg-light-hoverCardBg hover:dark:bg-dark-hoverCardBg border-t-[8px] border-main-faceBook  transition-all hover:scale-[1.1]">
         <div className="flex justify-center gap-4 mb-4">
           <img src={facebook} alt="social-icon" className="w-7"/>
           <p className="text-main-text font-bold">@nathanf</p>
@@ -27,7 +27,7 @@ const Followers = () => {
         </div>
       </article>
 
-      <article className="bg-light-lightCardBg dark:bg-dark-darkCardBg p-5 rounded-lg shadow shadow-dark-darkTopBg dark:shadow-light-lightTopBg hover:bg-light-hoverCardBg hover:dark:bg-dark-hoverCardBg border-t-[4px] border-main-twitter transition-all hover:scale-[1.1]">
+      <article className="bg-light-lightCardBg dark:bg-dark-darkCardBg p-5 rounded-lg shadow shadow-dark-darkTopBg dark:shadow-light-lightTopBg hover:bg-light-hoverCardBg hover:dark:bg-dark-hoverCardBg border-t-[8px] border-main-twitter transition-all hover:scale-[1.1]">
         <div className="flex justify-center gap-4 mb-4">
           <img src={twitter} alt="social-icon" className="w-7"/>
           <p className="text-main-text font-bold">@nathanf</p>
@@ -45,7 +45,8 @@ const Followers = () => {
       </article>
 
       <div className="bordertest">
-      <article className="bg-light-lightCardBg dark:bg-dark-darkCardBg p-5 rounded-lg shadow shadow-dark-darkTopBg dark:shadow-light-lightTopBg hover:bg-light-hoverCardBg hover:dark:bg-dark-hoverCardBg border-t-[4px] instagram transition-all hover:scale-[1.1]">
+      <article className="bg-light-lightCardBg dark:bg-dark-darkCardBg p-5 rounded-lg shadow shadow-dark-darkTopBg dark:shadow-light-lightTopBg hover:bg-light-hoverCardBg hover:dark:bg-dark-hoverCardBg border-t-8 transition-all hover:scale-[1.1] relative">
+      <div className="instagram h-2 w-full rounded-tl-md rounded-tr-md absolute top-[-7.5px] left-0"></div>
         <div className="flex justify-center gap-4 mb-4">
           <img src={instagram} alt="social-icon" className="w-7"/>
           <p className="text-main-text font-bold">@realnathanf</p>
@@ -63,7 +64,7 @@ const Followers = () => {
       </article>
       </div>
 
-      <article className="bg-light-lightCardBg dark:bg-dark-darkCardBg p-5 rounded-lg shadow shadow-dark-darkTopBg dark:shadow-light-lightTopBg hover:bg-light-hoverCardBg hover:dark:bg-dark-hoverCardBg border-t-[4px] border-main-youTube transition-all hover:scale-[1.1]">
+      <article className="bg-light-lightCardBg dark:bg-dark-darkCardBg p-5 rounded-lg shadow shadow-dark-darkTopBg dark:shadow-light-lightTopBg hover:bg-light-hoverCardBg hover:dark:bg-dark-hoverCardBg border-t-[8px] border-main-youTube transition-all hover:scale-[1.1]">
         <div className="flex justify-center gap-4 mb-4">
           <img src={youtube} alt="social-icon" className="w-7"/>
           <p className="text-main-text font-bold">Nathan F.</p>

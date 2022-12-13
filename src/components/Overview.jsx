@@ -10,7 +10,7 @@ import CountUp from "react-countup";
 const Overview = () => {
     return (
         <section>
-            <h2 className='text-start text-2xl md:text-3xl font-bold text-main-text dark:text-light-white mb-10'>Overview - Today</h2>
+            <h2 className='text-start text-2xl md:text-3xl font-bold text-main-text dark:text-light-white mb-10 xs:text-center md:text-left'>Overview - Today</h2>
             <article className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8'>
                 <div className='bg-light-lightCardBg dark:bg-dark-darkCardBg p-5 rounded-lg shadow shadow-dark-darkTopBg dark:shadow-light-lightTopBg hover:bg-light-hoverCardBg hover:dark:bg-dark-hoverCardBg transition-all hover:scale-[1.1]'>
                     <div className='flex justify-between'>
