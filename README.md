@@ -1,6 +1,6 @@
-# frontend-mentor-2
+# Frontend Mentor - Social media dashboard
 
-### A social media dashboard made with React.js & Tailwind-CSS for frontend mentor challenges. Used Vite.js as module bundler. Responsive for mobile devices and also done dark & light mode.
+### This is a solution for Social media dashboard page challenge on Frontend Mentor. Frontend Mentor challenges help you improve your coding skills by building realistic projects. Made with React.js & Tailwind-CSS used Vite.js as module bundler. Responsive for mobile devices and also done dark & light mode.
 
 ## live:https://social-media-dashboard93.netlify.app/
 
