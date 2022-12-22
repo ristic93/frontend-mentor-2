@@ -1,6 +1,6 @@
 # Frontend Mentor - Social media dashboard
 
-## [Live preview](live:https://social-media-dashboard93.netlify.app/)
+## [Live preview](https://social-media-dashboard93.netlify.app/)
 
 This is a solution for [Social media dashboard page challenge on Frontend Mentor](https://www.frontendmentor.io/solutions/social-media-dashboard-with-theme-switcher-qZyHi_jezG). Frontend Mentor challenges help you improve your coding skills by building realistic projects. Made with React.js & Tailwind-CSS used Vite.js as module bundler. Responsive for mobile devices and also done dark & light mode.
 
